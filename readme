@@ -10,4 +10,11 @@ Committed files:
 The meaning of all these files will be explained in the subsequent sections.
 Important note:
 It has not been possible to upload the cvs file into the folder, as it resulted too large for github to be uploaded. Thus, a “readme” file has been added including the link of the dataset to be downloaded prior to run any code.
-The dataset chosen for this project can be found here: https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities
+The dataset chosen for this project can be found here: https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities.
+
+
+
+######BEFORE RUNNING ANY CODE
+Important note:
+To run any of the following scripts/functions, please install all the required packages before: Matplotlib, Seaborn, Bokeh, Folium, Pandas. To do this, go to File
+,  Settings and Add the package under the Python Interpreter section:
