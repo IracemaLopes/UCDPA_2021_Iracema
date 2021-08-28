@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ea9ba1460f33495b980b85f0e1f01e61 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ea9ba1460f33495b980b85f0e1f01e61" ></div>
+        
+</body>
+<script>    
+    
+            var map_ea9ba1460f33495b980b85f0e1f01e61 = L.map(
+                "map_ea9ba1460f33495b980b85f0e1f01e61",
+                {
+                    center: [45.457305121681685, 9.188590225926237],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_970ba3ed74674776a49e107e4eaab85c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ea9ba1460f33495b980b85f0e1f01e61);
+        
+    
+            var marker_bb3f37243d9542ec9443b24b4f4d4b72 = L.marker(
+                [45.464195400558665, 9.191937227026742],
+                {}
+            ).addTo(map_ea9ba1460f33495b980b85f0e1f01e61);
+        
+    
+            var icon_8f4ed0f8d4d74bfdb5c61460be934e8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "red", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb3f37243d9542ec9443b24b4f4d4b72.setIcon(icon_8f4ed0f8d4d74bfdb5c61460be934e8c);
+        
+    
+        var popup_a1085bdd59bb4be582f16e30da0c5053 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e051534cc129443883f9703d63d0b26d = $(`<div id="html_e051534cc129443883f9703d63d0b26d" style="width: 100.0%; height: 100.0%;">Cathedral</div>`)[0];
+            popup_a1085bdd59bb4be582f16e30da0c5053.setContent(html_e051534cc129443883f9703d63d0b26d);
+        
+
+        marker_bb3f37243d9542ec9443b24b4f4d4b72.bindPopup(popup_a1085bdd59bb4be582f16e30da0c5053)
+        ;
+
+        
+    
+    
+            marker_bb3f37243d9542ec9443b24b4f4d4b72.bindTooltip(
+                `<div>
+                     Duomo di Milano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6f54f4072dd443e0b27977bc74dea932 = L.circle(
+                [45.46382094385277, 9.191974576083203],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_ea9ba1460f33495b980b85f0e1f01e61);
+        
+    
+        var popup_446665adcc854590bc94fa528054832b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f42c7fb956e4879bccf0d246e0786b0 = $(`<div id="html_1f42c7fb956e4879bccf0d246e0786b0" style="width: 100.0%; height: 100.0%;">Love the area</div>`)[0];
+            popup_446665adcc854590bc94fa528054832b.setContent(html_1f42c7fb956e4879bccf0d246e0786b0);
+        
+
+        circle_6f54f4072dd443e0b27977bc74dea932.bindPopup(popup_446665adcc854590bc94fa528054832b)
+        ;
+
+        
+    
+</script>
