@@ -1,0 +1,13 @@
+Committed files:
+
+•	dataset_inspection.py
+•	dataset_cleaning.py
+•	dataset_elaboration.py
+•	import_dataset.py (function)
+•	merge_dataframe.py
+•	europe_and_north_america.py
+•	python_loop.py
+The meaning of all these files will be explained in the subsequent sections.
+Important note:
+It has not been possible to upload the cvs file into the folder, as it resulted too large for github to be uploaded. Thus, a “readme” file has been added including the link of the dataset to be downloaded prior to run any code.
+The dataset chosen for this project can be found here: https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities
